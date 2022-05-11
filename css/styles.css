@@ -1,0 +1,197 @@
+/* A font to rule them all */
+*{
+font-family: 'Open Sans', sans-serif;
+
+}
+/* A font to rule them all */
+
+
+
+
+
+/* BACKGROUND */
+body {
+    background-color: #ebebeb;
+}
+
+
+/*BACKGROUND*/
+
+
+/* RESPONSIVE */
+
+
+/* RESPONSIVE */
+
+
+/* I AM THE IMAGE */
+.box1 > img{
+    width: 100px;
+    height: 100px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid 3px #a2a2a2;
+;
+}
+/*  IM THE IMAGE */
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+/* CONTAINER */
+.box0, .box0-social, .box0-film {
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 2px rgb(227, 227, 227) ;
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    margin: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-direction: column;
+    justify-content: center ;
+    }
+
+    .box1 > h1 { 
+color: #e2615c;
+margin bottom: -10px;
+margin: 6px;
+}
+
+.box1 > p{
+    color: #a2a2a2;
+    line-height: 1.5 ;
+    text-align: justify;
+    
+}
+
+h1 {
+font-size: 1.7em ;
+}
+
+
+h2 {
+color: #7f7d7d;
+font-size: 1.2em;
+margin: 2px;
+font-weight: 500 ;
+text-align: center;
+}
+
+
+h3 {
+color: #7f7d7d;
+font-size: 1.1em;
+margin: 2px;
+font-weight: 400 ;
+}
+
+b {
+    color: #7f7d7d;
+font-weight: 600;
+
+
+}
+/* CONTAINER */
+
+
+
+
+.button1 {
+    border-radius: 0.3em;
+    color: white;
+    background-color: #e2615c;
+    height: 40px;
+    width: 150px;
+    margin: -5px;
+    
+}
+
+
+.button1 > p{
+font-size: 1.2em;
+margin-bottom: 100px;
+margin-top: 7px;
+margin-left: 18px;
+}
+
+
+p a:only-of-type {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* FIRST BOX */
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px;
+    align-items: center;
+    padding: 1em;
+}
+/* FIRST BOX */
+    
+
+.box0-social{
+    padding: 5em;
+}
+
+ul {
+   list-style-type: none;
+
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: baseline;
+    margin: auto;
+    font-size: xx-large;
+}
+    
+
+li > a {
+    display: flex;
+    color: #d9d9d9;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+
+/* TABLE */
+
+
+.table {
+display: flex;
+padding: 35px;
+padding-top: 10px
+}
+
+
+td > img {
+
+width:90px
+}
+
+td > p {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 0.9em;
+    line-height: 1.8;
+    color: #a2a2a2;
+
+}
+
+td > h3 {
+    text-align: center;
+}
